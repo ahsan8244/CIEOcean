@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  background-color: #EBEBEB;
+}
+
+.navbar-custom{
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+
+.navbar-custom .navbar-brand{
+  color: white;
+}
+
+.navbar-custom .collapse .navbar-nav li .nav-link{
+  color: white;
+}
+
+.jumbotron{
+  display: flex;
+  align-items: center;
+  background-image: url(https://www.oceanrisksummit.com/Content/images/ocean-poster.png);
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbotron-custom{
+  border-radius: 0;
+}
+
+.jumbotron .big-headings{
+  display: flex;
+  justify-content: center;
+}
+
+.big-btns{
+
+}
+
+.btn-block{
+  display: block;
+  border-radius: 0;
+  padding: 10px 0;
+  font-family: 'PT sans', sans-serif;
+}
+
+.jumbotron h1{
+  color: white;
+  font-family: 'PT sans', sans-serif;
+}
+
+.jumbotron h4{
+  color: white;
+  font-family: 'PT sans', sans-serif;
+  margin-bottom: 25px;
+}
